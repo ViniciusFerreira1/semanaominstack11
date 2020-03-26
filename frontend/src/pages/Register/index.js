@@ -6,8 +6,8 @@ import './styles.css';
 import LogoImg from '../../assets/logo.svg'
 export default function Register() {
     return (
-        <div className="" register-container>
-            <div className="" content>
+        <div className="register-container" >
+            <div className="content" >
                 <section>
                     <img src={LogoImg} alt="Be The Hero" />
                     <h1>Cadastro</h1>

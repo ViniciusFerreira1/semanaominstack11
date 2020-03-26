@@ -1,0 +1,8 @@
+npm init -y = iniciar um projeto nodejs
+$ npx create-react-app frontend
+npm install express =  microframework para configurações de rotas
+const = importar algo para o js ex: const express = require('express');
+app.listen('3333'); definir uma porta
+criar um projeto em react:
+npx create app nomedoprojeto= executa o comando para criar um app
+$ npm install cors = modulo de seguranca js
