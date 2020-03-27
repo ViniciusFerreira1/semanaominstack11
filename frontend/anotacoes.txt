@@ -1,3 +1,26 @@
+npm instala npx executa
+Instalar NodeJs Windows via chocolatey
+https://chocolatey.org/install
+Verificar se o powershell não tem restrições com o comando: Get-ExecutionPolicy
+Executar o comando como admistrador
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Verificar se instalou digite no cmd ou powershell: choco
+Instalar NodeJS
+Executar choco  install nodejs-lts 
+
+Criar um projeto Nodejs (Backend)
+npm init -y      
+Instalar Framwork rotas minimo
+npm install express
+Executar o projeto
+node nomearq.js
+Criar um projeto react
+npx create-react-app frontend = frontend é o nome da pasta que vai ser criada com os arquivos do react
+npm start
+
+
+
+
 npm init -y = iniciar um projeto nodejs
 $ npx create-react-app frontend
 npm install express =  microframework para configurações de rotas
@@ -6,3 +29,5 @@ app.listen('3333'); definir uma porta
 criar um projeto em react:
 npx create app nomedoprojeto= executa o comando para criar um app
 $ npm install cors = modulo de seguranca js
+
+Instalar um cliente Http = $ npm install  axios
